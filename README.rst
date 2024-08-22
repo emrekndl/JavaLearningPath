@@ -9,6 +9,8 @@ Dizinler
 
 - **`day1/`**: Java'nın temel nesne yönelimli programlama (OOP) kavramlarını içeren örnekleri barındırır. Bu dizin altında bir `README.rst` dosyası bulunur, bu dosya `day1`'deki kurulum, çalışma ve OOP kavramlarıyla ilgili ayrıntıları içerir.
 
+- **`day2/`**: Java'daki kapsamlı konuları içeren örnekleri barındırır. Bu dizin altında bir `README.rst` dosyası bulunur, bu dosya `day2`'deki statik kullanım, paketler, koleksiyonlar, hata yönetimi, dosya işlemleri, jenerikler, repository deseni, jenerik metotlar ve iş parçacıkları ile ilgili ayrıntıları içerir.
+
 Kurulum ve Çalıştırma
 ==========================
 
