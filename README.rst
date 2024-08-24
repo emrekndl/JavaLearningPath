@@ -11,6 +11,9 @@ Dizinler
 
 - **`day2/`**: Java'daki kapsamlı konuları içeren örnekleri barındırır. Bu dizin altında bir `README.rst` dosyası bulunur, bu dosya `day2`'deki statik kullanım, paketler, koleksiyonlar, hata yönetimi, dosya işlemleri, jenerikler, repository deseni, jenerik metotlar ve iş parçacıkları ile ilgili ayrıntıları içerir.
 
+- **`day3/`**: Java ile MySQL veritabanı işlemlerini gerçekleştiren bir projeyi içerir. Bu dizin, temel CRUD (Create, Read, Update, Delete) işlemlerini içeren örnekleri barındırır.
+
+
 Kurulum ve Çalıştırma
 ==========================
 
