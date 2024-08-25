@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- values imported from properties file -->
+    <context:property-placeholder location="file:day4/values.properties" />
+    <!-- <context:property-placeholder location="classpath:values.properties" /> -->
+
+
+    <bean id="database" class="MysqlCustomerDal">
+        <!-- Properties for the Class field injection -->
+        <property name="connectionString" value="${database.connectionString}"></property>
+    </bean>
+    <!-- <bean id="database" class="CustomerDal"></bean> -->
+
+    <bean id="service" class="CustomerManager">
+        <!-- conctructor injection -->
+        <!-- <constructor-arg ref="database"></constructor-arg> -->
+        <!-- property injection -->
+        <property name="customerDal" ref="database"></property>
+    </bean>
+
+
+</beans>

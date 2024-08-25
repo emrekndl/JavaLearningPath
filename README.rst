@@ -13,6 +13,8 @@ Dizinler
 
 - **`day3/`**: Java ile MySQL veritabanı işlemlerini gerçekleştiren bir projeyi içerir. Bu dizin, temel CRUD (Create, Read, Update, Delete) işlemlerini içeren örnekleri barındırır.
 
+- **`day4/`**: Spring IoC (Inversion of Control) ve Dependency Injection (Bağımlılık Enjeksiyonu) konularını ele alır. Bu dizin altında bir `README.rst` dosyası bulunur, bu dosya `day4`'teki IoC yapılandırması, bean tanımlamaları ve farklı injection yöntemleri ile ilgili bilgileri içerir.
+
 
 Kurulum ve Çalıştırma
 ==========================
