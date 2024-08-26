@@ -15,6 +15,7 @@ Dizinler
 
 - **`day4/`**: Spring IoC (Inversion of Control) ve Dependency Injection (Bağımlılık Enjeksiyonu) konularını ele alır. Bu dizin altında bir `README.rst` dosyası bulunur, bu dosya `day4`'teki IoC yapılandırması, bean tanımlamaları ve farklı injection yöntemleri ile ilgili bilgileri içerir.
 
+- **`day5/`**: Hibernate kullanarak MySQL veritabanı ile etkileşimde bulunan bir projeyi içerir. Bu dizin, Hibernate yapılandırması, `City` sınıfının tanımlanması ve veritabanı işlemlerini içeren örnekleri barındırır.
 
 Kurulum ve Çalıştırma
 ==========================
