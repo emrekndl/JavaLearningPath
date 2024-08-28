@@ -17,6 +17,8 @@ Dizinler
 
 - **`day5/`**: Hibernate kullanarak MySQL veritabanı ile etkileşimde bulunan bir projeyi içerir. Bu dizin, Hibernate yapılandırması, `City` sınıfının tanımlanması ve veritabanı işlemlerini içeren örnekleri barındırır.
 
+- **`day6/`**: Spring Boot, Hibernate ve JPA kullanarak geliştirilmiş bir RESTful API uygulamasını içerir. Bu dizin, Docker Compose ile MySQL veritabanı kurulumu ve yönetimi de yapılmıştır.
+
 Kurulum ve Çalıştırma
 ==========================
 

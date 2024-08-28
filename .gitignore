@@ -24,6 +24,9 @@ pom.xml.next
 release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
 # Gradle
 .gradle/
@@ -53,6 +56,19 @@ dist/
 nbdist/
 nbactions.xml
 nb-configuration.xml
+/.nb-gradle/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+
+# STS 
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cach
 
 # Generated files
 *.log
@@ -64,3 +80,5 @@ nb-configuration.xml
 *.orig
 *.rej
 *.sublime-workspace
+db-data/mysql/**
+!db-data/mysql/.gitkeep

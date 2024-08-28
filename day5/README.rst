@@ -103,12 +103,21 @@ Kurulum ve Çalıştırma
     `run-mysql.sh` dosyasını çalıştırarak MySQL'de gerekli veritabanını oluşturun ve verileri yükleyin:
 
     .. code-block:: bash
-
+	
+	chmod +x run-mysql.sh
         ./run-mysql.sh
 
     Bu script, MySQL'de `world` isimli bir veritabanı oluşturacak ve `db-data/mysql/world.sql` dosyasını kullanarak gerekli verileri yükleyecektir.
 
-4. **Hibernate Yapılandırması:**
+4. **Veritabanı Kurulumu**:
+   Veritabanını kurmak için `world.sql` dosyasını kullanarak MySQL container'ına bağlanmanız ve veritabanını oluşturmanız gerekmektedir:
+
+   .. code-block:: bash
+
+       podman exec -it mysql bash
+       mysql -u root -p < /var/lib/mysql/world.sql
+
+5. **Hibernate Yapılandırması:**
     `src/hibernate.cfg.xml` dosyasında veritabanı bağlantı bilgilerinizi güncelleyin:
 
     .. code-block:: xml
@@ -117,7 +126,7 @@ Kurulum ve Çalıştırma
         <property name="hibernate.connection.username">root</property>
         <property name="hibernate.connection.password">root</property>
 
-5. **Projeyi Derleyin ve Çalıştırın:**
+6. **Projeyi Derleyin ve Çalıştırın:**
     .. code-block:: bash
 
         javac -d bin src/com/hibernatedemo/*.java
