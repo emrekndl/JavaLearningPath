@@ -11,4 +11,3 @@ class Day6ApplicationTests {
 	}
 
 }
-
